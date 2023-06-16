@@ -17,7 +17,20 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    // colors: colors,
+    extend: {
+      colors: {
+        primary: "#06b6d4",
+        secondary: " #064fd4",
+        anger: " #d42406",
+      },
+    },
+    // extend: {
+    //   colors: {
+    //     "primary-color": "var(--primary-color)",
+    //     "secondary-color": "var(--secondary-color)",
+    //     "danger-color": "var(--danger-color)",
+    //   },
+    // },
   },
   plugins: [],
 };

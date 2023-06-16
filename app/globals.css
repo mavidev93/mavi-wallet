@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* .root,
+#root,
+#docs-root {
+  --primary-color: #06b6d4;
+  --secondary-color: #064fd4;
+  --danger-color: #d42406;
+  --textPrimarySize: "12px";
+} */
