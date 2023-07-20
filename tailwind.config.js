@@ -21,7 +21,8 @@ module.exports = {
       colors: {
         primary: "#06b6d4",
         secondary: " #064fd4",
-        anger: " #d42406",
+        danger: " #d42406",
+        borderGray: "#c4c4c4",
       },
     },
     // extend: {

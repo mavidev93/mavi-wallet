@@ -21,7 +21,7 @@ const CreatePassword = (props: Props) => {
 
   return (
     <div>
-      <MidTitle className="mt-5 mb-2 text-center ">Create Password</MidTitle>
+      <MidTitle className="my-5 text-center ">Create Password</MidTitle>
       <p className="">
         This password only opens Mavi wallet on your device and Mavi Wallet can
         not recover this.{" "}
@@ -39,7 +39,7 @@ const CreatePassword = (props: Props) => {
                   <span
                     style={{ fontSize: "16px" }}
                     className={classNames(
-                      " cursor-pointer material-icons-sharp select-none	 ",
+                      " cursor-pointer material-icons-outlined select-none	 ",
 
                       { "text-gray-600": showPassword }
                     )}

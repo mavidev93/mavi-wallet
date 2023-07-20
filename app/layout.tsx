@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import "material-icons/iconfont/sharp.css";
+// import "material-icons/iconfont/outlined.css";
+import "material-icons/iconfont/outlined.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
